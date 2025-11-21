@@ -1,0 +1,64 @@
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Verdana", sans-serif;
+}
+
+nav {
+	padding: 8px;
+	margin-bottom: 32px;
+	text-align: center;
+	background-color: violet;
+}
+
+#landing{
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	text-align: center;
+	border: 2px solid black;
+}
+
+.header{
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+button{
+	color: white;
+	background-color: blue;
+	padding: 8px;
+	font-size: 16px;
+	margin-top: 16px;
+	/*border-radius: 5px;*/
+}
+
+#mission{
+	padding-left: 15vw;
+	padding-right: 15vw;
+	padding-top: 32px;
+	padding-bottom: 32px;
+	text-align: center;
+}
+
+.card{
+	text-align: center;
+	width: 300px;
+	margin-left: 2px;
+	margin-right: 2px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer{
+	padding: 16px;
+	text-align: center;
+}
